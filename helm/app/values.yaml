@@ -1,9 +1,9 @@
 replicaCount: 2
 
 image:
-  repository: dali999/demo-java-app   # Ton repo Docker Hub
+  repository: dali999999/demo-java-app
   pullPolicy: IfNotPresent
-  tag: "V1.0"  # remplacé automatiquement par Jenkins
+  tag: "V1.0"
 
 appName: demo-java-app
 namespace: app

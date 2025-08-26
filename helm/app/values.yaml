@@ -1,5 +1,6 @@
 replicaCount: 2
-
+ingress: 
+  enabled: false 
 image:
   repository: dali999999/demo-java-app
   pullPolicy: IfNotPresent

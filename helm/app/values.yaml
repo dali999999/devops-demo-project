@@ -1,8 +1,11 @@
 replicaCount: 2
+imagePullSecrets:
+  - name: regcred
+
 ingress: 
   enabled: false 
 image:
-  repository: dali999999/demo-java-app
+  repository: dali999/demo-java-app
   pullPolicy: IfNotPresent
   tag: "V1.0"
 

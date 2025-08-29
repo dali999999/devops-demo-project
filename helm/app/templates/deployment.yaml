@@ -14,7 +14,10 @@ spec:
       labels:
         app: {{ .Values.appName }}
     spec:
-      containers:
+     imagePullSecrets:
+        - name: {{ .Values.imagePullSecrets | default "regcred" }}
+ 
+     containers:
       - name: {{ .Values.appName }}
         image: {{ .Values.image.githubID }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
         ports:

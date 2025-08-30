@@ -15,7 +15,7 @@ spec:
         app: {{ .Values.appName }}
     spec:
       imagePullSecrets:
-        - name: {{ .Values.imagePullSecrets | default "regcred" }}
+        {{ default "regcred" .Values.imagePullSecrets }}
       containers:
         - name: {{ .Values.appName }}
           image: {{ .Values.image.githubID }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}

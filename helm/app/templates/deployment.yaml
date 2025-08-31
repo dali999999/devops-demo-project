@@ -15,7 +15,7 @@ spec:
         app: {{ .Values.appName }}
     spec:
       imagePullSecrets:
-        - name: {{ .Values.imagePullSecrets | default "regcred" }}
+{{- toYaml .Values.imagePullSecrets | nindent 6 }}
       containers:
         - name: {{ .Values.appName }}
           image: {{ .Values.image.repository }}:{{ .Values.image.tag }}

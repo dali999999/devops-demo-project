@@ -1,0 +1,169 @@
+Démarré par l'utilisateur [8mha:////4PSQulD0H5JteQcR1l8DcZYHhmvNLRp1z0YQca975I7UAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYu/dLi1CL9lMScTAA12dTmvwAAAA==[0mmohamed ali jaouadi
+Obtained ci/Jenkins/Jenkinsfile from git https://github.com/deepakkr35/devops-demo-project.git
+[8mha:////4Bqo2mQIPc88yaiL4Yg83jw6dhrzn9+wIS/9gwPyUF0YAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4K/42VFu9CBu82JvldGgw8dPMKPyC/kBMH1lCgHXtfynAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IAL2W0hBkbDp7cAsT14Kg4vNC+qRqAaMaeGfb5zHt/wAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/demo-java-pipeline
+[8mha:////4K94il7Bis16+IyKoUBx3mCiHYE889yOKAWQEqeMwp80AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LRUdqx5RE80jKW2HLZ76v+gA6A87opRfNYmhE1k0BBFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BRdxcaMQDZ6WBiZ4LrYKdMsiNVaUh32qgV57SaWqYgLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4MJy7aEQrL6msotouIXbKfJi4P316Njvuqw1vurEFOGzAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/demo-java-pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepakkr35/devops-demo-project.git # timeout=10
+Fetching upstream changes from https://github.com/deepakkr35/devops-demo-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/deepakkr35/devops-demo-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d7e1b4afbbca0b1d68eb4788903698c544ba55cc (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d7e1b4afbbca0b1d68eb4788903698c544ba55cc # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk d7e1b4afbbca0b1d68eb4788903698c544ba55cc # timeout=10
+[8mha:////4FRWU9BQHbhiiDCKoJ2Gl/Fs008+Ip1IUtO2U6FjLRXjAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4CixgUIBRZuwUkP5/e6shL9ERnabBNavP7FBR8KCr8ixAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4LFNeZVB82XsSvy9bNJtDzQduiv9TCyh6Qg7dS3PiUrcAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LmH8UeBYiV966dvAy37Cv2KwHvoE3niz2aR5tbUAudCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4J+MGn4gnuob343802OjZlIuX+gQ7sJ/Rjpdb0xzd6c6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4N+EJOvNG90r25XJcWCt5AMSfVworItSHObSASfu1LSyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4Bd9KOGw15cGosHPJfe9XmxkUVm8wAL+HHyM9HNsWXolAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/demo-java-pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepakkr35/devops-demo-project.git # timeout=10
+Fetching upstream changes from https://github.com/deepakkr35/devops-demo-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/deepakkr35/devops-demo-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d7e1b4afbbca0b1d68eb4788903698c544ba55cc (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d7e1b4afbbca0b1d68eb4788903698c544ba55cc # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main d7e1b4afbbca0b1d68eb4788903698c544ba55cc # timeout=10
+Commit message: "Update README.md"
+[8mha:////4KrPDnN2+oZB5Gc0eEP3+bETm3LAM3sVPnvWtyexjIdbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4EtgqZDQo/zNfQYkrIF+kvaiKasNoB1qorqfHQZgSjvqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4BHli7JCsBy0ByhMjGWctVM1H7VM5+9xwXZxK0lZtXV3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4HjsOv1A1Byb8emCTFaVhRrYAz/Qmn+a5ogli561YMS6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Build and Test)
+[8mha:////4HljbWfJd5Y/N+yVpBDvJZQ18Vd/VYsOfi+JdfBbAW+HAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ ls -ltr
+total 1896
+-rw-r--r-- 1 jenkins jenkins    2231 août   3 20:33 README.md
+drwxr-xr-x 3 jenkins jenkins    4096 août   3 20:33 cd
+drwxr-xr-x 3 jenkins jenkins    4096 août   3 20:33 ci
+-rw-r--r-- 1 jenkins jenkins  605148 août   3 20:33 devops-demo-project-flow.svg
+-rw-r--r-- 1 jenkins jenkins 1311154 août   3 20:33 devops-demo-project.gif
+drwxr-xr-x 4 jenkins jenkins    4096 août   3 20:33 helm
+drwxr-xr-x 4 jenkins jenkins    4096 août   4 14:33 demo-java-app
+[8mha:////4L0lmslunIjwDxsgfdgDDNADMvGBLm6XUScSgsH4VO7VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] sh
++ cd demo-java-app
++ mvn clean package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.deepak:spring-boot-demo[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding spring-boot-demo 1.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/demo-java-pipeline/demo-java-app/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/demo-java-pipeline/demo-java-app/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/demo-java-pipeline/demo-java-app/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.2:jar[m [1m(default-jar)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/demo-java-pipeline/demo-java-app/target/demo-java-app.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:repackage[m [1m(repackage)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  23.741 s
+[[1;34mINFO[m] Finished at: 2025-08-04T14:59:05+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4BO95Df9wbcG8zB9plyiur2IQ6M8YbV9iUIME+zk3hBCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4LhyswVrjFPWF6Ka5fXTryDh/BsLnkmRqzmRCVMSuFOJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // stage
+[8mha:////4HzxlAtkzowSmaSCSXcrsBPUb4Z4lpsiWFWK0mpitPloAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUhRExdY26cILQhJA0+r8kKenEibgadyBQiQkPlm3Jes8XVMHDkbxmVuFgMPSGjW7SObFEfrg4SszSmfWEgZxinUodSdUutaOoYFFRworDWmHvKBjUETbciruonUBdn6LP24FDaeQNHlDwTI7Cx2+ZPWyvkwyEP85fAMxjhLJpsu32n2f1BlfFHmHCAAAA[0m[Pipeline] stage
+[8mha:////4EnO8qmk9It1+tmD9Vps0dCwhBG30vRVO4OMAisWbk/fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Static Code Analysis)
+[8mha:////4Pr0SvPNswrChoFBuoK3i0PHzV5vGVBgAtyVEh6u6lvHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] withEnv
+[8mha:////4LrgqAWMtrPDJMFXsVPwHjrUARsaIioxqOm4hr5o53URAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4AGHdYbo4WyT7vB4zBwpaBr8nQrUiP1OHon8VGvXgD4cAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $SONAR_AUTH_TOKEN
+[8mha:////4FKg+v5NUwgKu7rc/QQmPCKJ29i5VsTlN63VEPV+vLEWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] {
+[8mha:////4B+DEEFLSAjXu5VSMy7lB7YOJldn4/AEXf9U/QTcwCAqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ cd demo-java-app
++ mvn sonar:sonar -Dsonar.login=**** -Dsonar.host.url=http://sonarqube:9000
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:4.0.0.4121 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:4.0.0.4121: SonarQube plugin was moved to SonarSource organisation
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.deepak:spring-boot-demo[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding spring-boot-demo 1.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msonar-maven-plugin:4.0.0.4121:sonar[m [1m(default-cli)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;33mWARNING[m] 14:59:17.641 Using an unspecified version instead of an explicit plugin version may introduce breaking analysis changes at an unwanted time. It is highly recommended to use an explicit version, e.g. 'org.sonarsource.scanner.maven:sonar-maven-plugin:4.0.0.4121'.
+[[1;34mINFO[m] 14:59:17.682 Java 17.0.15 Ubuntu (64-bit)
+[[1;34mINFO[m] 14:59:17.685 Linux 6.14.0-27-generic (amd64)
+[[1;34mINFO[m] 14:59:19.402 User cache: /var/lib/jenkins/.sonar/cache
+[[1;31mERROR[m] 14:59:19.541 SonarQube server [http://sonarqube:9000] can not be reached
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.834 s
+[[1;34mINFO[m] Finished at: 2025-08-04T14:59:19+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.sonarsource.scanner.maven:sonar-maven-plugin:4.0.0.4121:sonar[m [1m(default-cli)[m on project [36mspring-boot-demo[m: [1;31mUnable to execute SonarScanner analysis[m: Fail to get bootstrap index from server: Unknown host sonarqube: Échec temporaire dans la résolution du nom -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4JJqGibLPIUgWovwXRIIYH0vpBSFn9boyj3VHlvCvvD9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4Dv0+KKAeCpv3a0Or4rCAEVOFO7ocj+zLNXnTTivGTcuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4GpAfTMLEMlG4HRLm0WswkgIu86/oPpD4rM3WHsYeCZpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBYkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9t4fMOvgAAAA==[0m[Pipeline] }
+[8mha:////4K3BmW/PxyYRKNszblvmvwxbsKNNTMejcyBQsDpMp2yEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFyY6ZcvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4K3cQwvDB3cZdwHjjTha3lSi+il7X7Fx/EONqbrcMlA3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] }
+[8mha:////4CjN7r6hGu93aZ2NEwJ3PbrL190D35hLnMxKUzBQ31FhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QFaJZxjvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JKyWo/wcdE/Q+1G2pCRp1U9RBA9Z5ZR4zxPX8Z8F4WyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFRILYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g1QX6SXwgAAAA==[0m[Pipeline] stage
+[8mha:////4BH6G0EbdaTrx99LDAnxYzA0ajiFbep6O4S4L/2ZNDxfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Build and Push Docker Image)
+Stage "Build and Push Docker Image" skipped due to earlier failure(s)
+[8mha:////4Mqv+6vnC6jXsmAYeW83oonTHYELjZCxY8steO0svuRNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] getContext
+[8mha:////4J3+5AhQYq7HublqhXpTc4tUKwMixW4St8NdCgWWFz9kAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4NOdjTZSiomvxmNMgp20KjZLuwrtRJkytioFcxHJUw9GAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IkVxpRyUqIHN9JDiJ+tI2oRal4yOtPGVo+p83thzwpDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUkdgQE2uUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oEkRDhQd6yz2HpP2bAijK4lNFPtLoIl1dGaaMFGwTNpJkrHHpUrKFhZVNawErC3qQMmjy7ARnbqrNih07SnHsu0F1N7c4AGVKOSsYv6WOcL2OppE+OP8BcA8ZKg5L7bjn2fzBmZRBk/CAAAA[0m[Pipeline] stage
+[8mha:////4LhDeJsjqmnKigG4SVXlox11BJfHLegSUDa2noqhUj6UAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (Update Deployment File)
+Stage "Update Deployment File" skipped due to earlier failure(s)
+[8mha:////4AoMdL5twLF6r/3D31MN9vt5gb7rA93dpml0j8cm6pXCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] getContext
+[8mha:////4HKE8ENUh7/9H52FRl++f4lJfGXC+OuDlcRpzgKNW5M7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BmFfOky+AAAA[0m[Pipeline] }
+[8mha:////4A7q39ZkETxLziySa8tRRVx8CtQFEEB6k72pjLuiP+CLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] // stage
+[8mha:////4I7IAJ9GX6YTlNUrMAojzA6pD87kA8KD6xhIHYjw1URbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSIgGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w+VW4zlvgAAAA==[0m[Pipeline] }
+[8mha:////4MRpiLDG+qXmGQLBRLlxtLDcr7pOysbeLjGsoRqFh8eKAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEhIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AprjXWb4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4HjQR08iAA8CgBqw59kF9LAi5E5iWkZzn0E6dHRBLK3aAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH9/H4sr0AAAA=[0m[Pipeline] }
+[8mha:////4BfGd2T/Pmj82g7zdnMYq/0hy5cWKSDJ/MqXZX3/Gtk2AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsP5E38Eb0AAAA=[0m[Pipeline] // node
+[8mha:////4O6n2C5+E2/u7weC/J2Tkc/0zqD3s5sKtKxYcYeMxjJlAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPpsy3oL0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

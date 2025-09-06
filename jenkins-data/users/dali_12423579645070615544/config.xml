@@ -1,0 +1,63 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>dali</id>
+  <fullName>mohamed ali jaouadi</fullName>
+  <properties>
+    <io.jenkins.plugins.thememanager.ThemeUserProperty plugin="theme-manager@319.v9193461f9671"/>
+    <jenkins.console.ConsoleUrlProviderUserProperty/>
+    <jenkins.views.ViewsTabBarUserProperty/>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@1922.v5c93c9e80a_f9">
+      <triggers/>
+      <projectName></projectName>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>8ceee876905d10a6</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.model.TimeZoneProperty/>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1419.v2337d1ceceef">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.model.MyViewsProperty>
+      <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.209.v582ed814ff2f">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <jenkins.model.experimentalflags.UserExperimentalFlagsProperty>
+      <flags/>
+    </jenkins.model.experimentalflags.UserExperimentalFlagsProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$CTj2IQElUI6lCC7tAqoM9.4e5PeTeVG4yzgFfifZwwPgpEWxFwOwS</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@515.vd788654779b_1">
+      <emailAddress>dalijawadi785@gmail.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1754313484401</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+  </properties>
+</user>

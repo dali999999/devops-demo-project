@@ -1,0 +1,288 @@
+Démarré par l'utilisateur [8mha:////4PSQulD0H5JteQcR1l8DcZYHhmvNLRp1z0YQca975I7UAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYu/dLi1CL9lMScTAA12dTmvwAAAA==[0mmohamed ali jaouadi
+[8mha:////4Bqo2mQIPc88yaiL4Yg83jw6dhrzn9+wIS/9gwPyUF0YAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4K/42VFu9CBu82JvldGgw8dPMKPyC/kBMH1lCgHXtfynAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IAL2W0hBkbDp7cAsT14Kg4vNC+qRqAaMaeGfb5zHt/wAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/nouveau_pipeline
+[8mha:////4K94il7Bis16+IyKoUBx3mCiHYE889yOKAWQEqeMwp80AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LRUdqx5RE80jKW2HLZ76v+gA6A87opRfNYmhE1k0BBFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BRdxcaMQDZ6WBiZ4LrYKdMsiNVaUh32qgV57SaWqYgLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4MJy7aEQrL6msotouIXbKfJi4P316Njvuqw1vurEFOGzAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/nouveau_pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepakkr35/devops-demo-project.git # timeout=10
+Fetching upstream changes from https://github.com/deepakkr35/devops-demo-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/deepakkr35/devops-demo-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d7e1b4afbbca0b1d68eb4788903698c544ba55cc (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d7e1b4afbbca0b1d68eb4788903698c544ba55cc # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main d7e1b4afbbca0b1d68eb4788903698c544ba55cc # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk d7e1b4afbbca0b1d68eb4788903698c544ba55cc # timeout=10
+[8mha:////4FRWU9BQHbhiiDCKoJ2Gl/Fs008+Ip1IUtO2U6FjLRXjAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4CixgUIBRZuwUkP5/e6shL9ERnabBNavP7FBR8KCr8ixAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4LFNeZVB82XsSvy9bNJtDzQduiv9TCyh6Qg7dS3PiUrcAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4LmH8UeBYiV966dvAy37Cv2KwHvoE3niz2aR5tbUAudCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build and Test)
+[8mha:////4LRMF2QMFTBju7VKpV2n4y0R1i9TVzjjnQn9Lqm/tI4WAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ ls -ltr
+total 1896
+-rw-r--r-- 1 jenkins jenkins    2231 août   4 15:18 README.md
+drwxr-xr-x 3 jenkins jenkins    4096 août   4 15:18 cd
+drwxr-xr-x 3 jenkins jenkins    4096 août   4 15:18 ci
+-rw-r--r-- 1 jenkins jenkins  605148 août   4 15:18 devops-demo-project-flow.svg
+-rw-r--r-- 1 jenkins jenkins 1311154 août   4 15:18 devops-demo-project.gif
+drwxr-xr-x 4 jenkins jenkins    4096 août   4 15:18 helm
+drwxr-xr-x 4 jenkins jenkins    4096 août   4 16:59 demo-java-app
+[8mha:////4NDBX9+DiFcFB/xMecI9KALbuR8qNLyJk0os7rYjGgUHAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ cd demo-java-app
++ mvn clean package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.deepak:spring-boot-demo[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding spring-boot-demo 1.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/nouveau_pipeline/demo-java-app/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/nouveau_pipeline/demo-java-app/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/nouveau_pipeline/demo-java-app/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.2:jar[m [1m(default-jar)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/nouveau_pipeline/demo-java-app/target/demo-java-app.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.2.4.RELEASE:repackage[m [1m(repackage)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  14.971 s
+[[1;34mINFO[m] Finished at: 2025-08-04T17:07:53+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4MQq4ZMMAPUSWs6of16LHnXGj7GbjSNW+NQMII0V2r4jAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+ATnVfPq+AAAA[0m[Pipeline] }
+[8mha:////4MEhvDMNYbifRuWtBRL9yk8XbRDQwiPJUULYBI4rrxbXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bgo2J0a+AAAA[0m[Pipeline] // stage
+[8mha:////4BO/BCeNrqgwnEVceLMS2y8g+z62wkmszfxd8UxzpRSLAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4BlIM6iGNoL92OsqwQXbW6WIDIlqAq1K2tiIw7Ohal5hAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Static Code Analysis)
+[8mha:////4HjsOv1A1Byb8emCTFaVhRrYAz/Qmn+a5ogli561YMS6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] withEnv
+[8mha:////4ErjOahu1Vw7avGJk9mvZRInY9e4F92lUfj/d67f8Y38AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4Ixdl4p7A+6o9MRPE69XkO6ywCNfzLlLHAhepV5wCj6gAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $SONAR_AUTH_TOKEN
+[8mha:////4Cj0JeU5DKVTrjwcLiz9hjw6DPaOFr3WUTDIetIt4SgjAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4CVYJCfyNb5e+UKB81HkNYZmR4JOyXckEJu+Fa5IxNdBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [SONAR_AUTH_TOKEN]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ cd demo-java-app
++ mvn sonar:sonar -Dsonar.login=**** -Dsonar.host.url=http://localhost:9000
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:4.0.0.4121 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:4.0.0.4121: SonarQube plugin was moved to SonarSource organisation
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.deepak:spring-boot-demo[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding spring-boot-demo 1.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msonar-maven-plugin:4.0.0.4121:sonar[m [1m(default-cli)[m @ [36mspring-boot-demo[0;1m ---[m
+[[1;33mWARNING[m] 17:08:04.396 Using an unspecified version instead of an explicit plugin version may introduce breaking analysis changes at an unwanted time. It is highly recommended to use an explicit version, e.g. 'org.sonarsource.scanner.maven:sonar-maven-plugin:4.0.0.4121'.
+[[1;34mINFO[m] 17:08:04.443 Java 17.0.15 Ubuntu (64-bit)
+[[1;34mINFO[m] 17:08:04.444 Linux 6.14.0-27-generic (amd64)
+[[1;34mINFO[m] 17:08:05.517 User cache: /var/lib/jenkins/.sonar/cache
+[[1;34mINFO[m] 17:08:06.102 Communicating with SonarQube Server 25.7.0.110598
+[[1;34mINFO[m] 17:08:06.168 Default locale: "fr_FR", source code encoding: "UTF-8"
+[[1;34mINFO[m] 17:08:09.553 Load global settings
+[[1;34mINFO[m] 17:08:11.243 Load global settings (done) | time=1661ms
+[[1;34mINFO[m] 17:08:11.386 Server id: 147B411E-AZh1pNAxJ4lyVOwPVG3X
+[[1;34mINFO[m] 17:08:11.508 Loading required plugins
+[[1;34mINFO[m] 17:08:11.509 Load plugins index
+[[1;34mINFO[m] 17:08:12.693 Load plugins index (done) | time=1184ms
+[[1;34mINFO[m] 17:08:12.694 Load/download plugins
+[[1;34mINFO[m] 17:08:13.300 Load/download plugins (done) | time=606ms
+[[1;34mINFO[m] 17:08:16.652 Process project properties
+[[1;34mINFO[m] 17:08:16.803 Process project properties (done) | time=152ms
+[[1;34mINFO[m] 17:08:16.842 Project key: com.deepak:spring-boot-demo
+[[1;34mINFO[m] 17:08:16.842 Base dir: /var/lib/jenkins/workspace/nouveau_pipeline/demo-java-app
+[[1;34mINFO[m] 17:08:16.842 Working dir: /var/lib/jenkins/workspace/nouveau_pipeline/demo-java-app/target/sonar
+[[1;34mINFO[m] 17:08:16.887 Load project settings for component key: 'com.deepak:spring-boot-demo'
+[[1;34mINFO[m] 17:08:17.016 Load project settings for component key: 'com.deepak:spring-boot-demo' (done) | time=126ms
+[[1;34mINFO[m] 17:08:18.170 Load quality profiles
+[[1;34mINFO[m] 17:08:22.390 Load quality profiles (done) | time=4220ms
+[[1;34mINFO[m] 17:08:22.608 Auto-configuring with CI 'Jenkins'
+[[1;34mINFO[m] 17:08:23.116 Load active rules
+[[1;34mINFO[m] 17:08:27.448 Load active rules (done) | time=4332ms
+[[1;34mINFO[m] 17:08:27.471 Load analysis cache
+[[1;34mINFO[m] 17:08:27.730 Load analysis cache (174 bytes) | time=259ms
+[[1;33mWARNING[m] 17:08:27.906 The property 'sonar.login' is deprecated and will be removed in the future. Please use the 'sonar.token' property instead when passing a token.
+[[1;34mINFO[m] 17:08:28.012 Preprocessing files...
+[[1;34mINFO[m] 17:08:28.746 2 languages detected in 2 preprocessed files (done) | time=732ms
+[[1;34mINFO[m] 17:08:28.746 0 files ignored because of scm ignore settings
+[[1;34mINFO[m] 17:08:28.749 Loading plugins for detected languages
+[[1;34mINFO[m] 17:08:28.750 Load/download plugins
+[[1;34mINFO[m] 17:08:28.887 Load/download plugins (done) | time=137ms
+[[1;34mINFO[m] 17:08:29.667 Load project repositories
+[[1;34mINFO[m] 17:08:30.174 Load project repositories (done) | time=507ms
+[[1;34mINFO[m] 17:08:30.189 Indexing files...
+[[1;34mINFO[m] 17:08:30.190 Project configuration:
+[[1;34mINFO[m] 17:08:30.205 2 files indexed (done) | time=15ms
+[[1;34mINFO[m] 17:08:30.206 Quality profile for java: Sonar way
+[[1;34mINFO[m] 17:08:30.206 Quality profile for xml: Sonar way
+[[1;34mINFO[m] 17:08:30.206 ------------- Run sensors on module spring-boot-demo
+[[1;34mINFO[m] 17:08:30.617 Load metrics repository
+[[1;34mINFO[m] 17:08:30.832 Load metrics repository (done) | time=215ms
+[[1;34mINFO[m] 17:08:35.227 Sensor JavaSensor [java]
+[[1;34mINFO[m] 17:08:35.261 Configured Java source version (sonar.java.source): 11, preview features enabled (sonar.java.enablePreview): false
+[[1;34mINFO[m] 17:08:35.356 Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[[1;34mINFO[m] 17:08:35.360 Using ECJ batch to parse 1 Main java source files with batch size 51 KB.
+[[1;34mINFO[m] 17:08:40.178 Starting batch processing.
+[[1;34mINFO[m] 17:08:41.759 The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[[1;34mINFO[m] 17:08:43.641 100% analyzed
+[[1;34mINFO[m] 17:08:43.642 Batch processing: Done.
+[[1;34mINFO[m] 17:08:43.643 Did not optimize analysis for any files, performed a full analysis for all 1 files.
+[[1;34mINFO[m] 17:08:43.644 No "Test" source files to scan.
+[[1;34mINFO[m] 17:08:43.644 No "Generated" source files to scan.
+[[1;34mINFO[m] 17:08:43.645 Sensor JavaSensor [java] (done) | time=8434ms
+[[1;34mINFO[m] 17:08:43.645 Sensor SurefireSensor [java]
+[[1;34mINFO[m] 17:08:43.648 parsing [/var/lib/jenkins/workspace/nouveau_pipeline/demo-java-app/target/surefire-reports]
+[[1;34mINFO[m] 17:08:43.650 Sensor SurefireSensor [java] (done) | time=5ms
+[[1;34mINFO[m] 17:08:43.650 Sensor XML Sensor [xml]
+[[1;34mINFO[m] 17:08:43.670 1 source file to be analyzed
+[[1;34mINFO[m] 17:08:44.491 1/1 source file has been analyzed
+[[1;34mINFO[m] 17:08:44.492 Sensor XML Sensor [xml] (done) | time=842ms
+[[1;34mINFO[m] 17:08:44.492 Sensor JaCoCo XML Report Importer [jacoco]
+[[1;34mINFO[m] 17:08:44.511 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[[1;34mINFO[m] 17:08:44.516 No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[[1;34mINFO[m] 17:08:44.516 Sensor JaCoCo XML Report Importer [jacoco] (done) | time=24ms
+[[1;34mINFO[m] 17:08:44.516 Sensor Java Config Sensor [iac]
+[[1;34mINFO[m] 17:08:44.691 0 source files to be analyzed
+[[1;34mINFO[m] 17:08:44.691 0/0 source files have been analyzed
+[[1;34mINFO[m] 17:08:44.693 Sensor Java Config Sensor [iac] (done) | time=177ms
+[[1;34mINFO[m] 17:08:44.694 Sensor IaC Docker Sensor [iac]
+[[1;34mINFO[m] 17:08:45.037 0 source files to be analyzed
+[[1;34mINFO[m] 17:08:45.037 0/0 source files have been analyzed
+[[1;34mINFO[m] 17:08:45.038 Sensor IaC Docker Sensor [iac] (done) | time=344ms
+[[1;34mINFO[m] 17:08:45.040 Sensor TextAndSecretsSensor [text]
+[[1;34mINFO[m] 17:08:45.362 Available processors: 3
+[[1;34mINFO[m] 17:08:45.363 Using 3 threads for analysis.
+[[1;34mINFO[m] 17:08:45.425 The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test" or "tests"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+[[1;34mINFO[m] 17:08:47.423 Start fetching files for the text and secrets analysis
+[[1;34mINFO[m] 17:08:47.463 Using Git CLI to retrieve untracked files
+[[1;34mINFO[m] 17:08:47.542 Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+[[1;34mINFO[m] 17:08:47.543 Starting the text and secrets analysis
+[[1;34mINFO[m] 17:08:47.562 2 source files to be analyzed for the text and secrets analysis
+[[1;34mINFO[m] 17:08:47.600 2/2 source files have been analyzed for the text and secrets analysis
+[[1;34mINFO[m] 17:08:47.603 Sensor TextAndSecretsSensor [text] (done) | time=2562ms
+[[1;34mINFO[m] 17:08:47.625 ------------- Run sensors on project
+[[1;34mINFO[m] 17:08:48.309 Sensor Zero Coverage Sensor
+[[1;34mINFO[m] 17:08:48.364 Sensor Zero Coverage Sensor (done) | time=55ms
+[[1;34mINFO[m] 17:08:48.364 Sensor Java CPD Block Indexer
+[[1;34mINFO[m] 17:08:48.417 Sensor Java CPD Block Indexer (done) | time=53ms
+[[1;34mINFO[m] 17:08:48.417 ------------- Gather SCA dependencies on project
+[[1;34mINFO[m] 17:08:48.424 Dependency analysis skipped
+[[1;34mINFO[m] 17:08:48.470 CPD Executor Calculating CPD for 1 file
+[[1;34mINFO[m] 17:08:48.503 CPD Executor CPD calculation finished (done) | time=32ms
+[[1;34mINFO[m] 17:08:48.662 SCM revision ID 'd7e1b4afbbca0b1d68eb4788903698c544ba55cc'
+[[1;34mINFO[m] 17:08:49.734 Analysis report generated in 1059ms, dir size=255.5 kB
+[[1;34mINFO[m] 17:08:49.873 Analysis report compressed in 136ms, zip size=31.3 kB
+[[1;34mINFO[m] 17:08:53.126 Analysis report uploaded in 3253ms
+[[1;34mINFO[m] 17:08:53.131 ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=com.deepak%3Aspring-boot-demo
+[[1;34mINFO[m] 17:08:53.132 Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[[1;34mINFO[m] 17:08:53.132 More about the report processing at http://localhost:9000/api/ce/task?id=1a652baa-c873-4fb8-ada6-e6cd1af81b0c
+[[1;34mINFO[m] 17:08:53.163 Analysis total time: 39.177 s
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  51.816 s
+[[1;34mINFO[m] Finished at: 2025-08-04T17:08:53+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4MXrWZnBbv0x/bT0VJe1CoH4DGyvMks76bsRuy1q2fUcAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23f36y8/b4AAAA=[0m[Pipeline] }
+[8mha:////4N4JIWZmFWqsn/ZuFC52b0We+IbhyajI5wdpClo27YkfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] // withCredentials
+[8mha:////4JSJLjHPbEsHkXjHUz4/CVd8ZaeizcwiQrV8fqKIoDyfAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAM5QTDr4AAAA=[0m[Pipeline] }
+[8mha:////4EaDg3g19Bwxk8q7gN0hxp9O2OWilIWz7mwUfPCi0cS0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAC9aA/74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4IrcvDKJus70EFaZhF3mEysI643lFkmFpaSmPhVJnwWfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaFIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QE/GGOkvgAAAA==[0m[Pipeline] }
+[8mha:////4LVBIG/iqreQsR5NMN+Mf5Qp6vOmZP0jHSghVNUp1xcnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AfJoyIr4AAAA=[0m[Pipeline] // stage
+[8mha:////4Lg0xu6RxhHKIjkw/qWQO4tIVffE7R1tym5KFsK6ONEJAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIRqEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A+OvzUfBAAAA[0m[Pipeline] stage
+[8mha:////4FvrTeAAcnmdNd5l69AVGqunEYz6LEZ08touYXqiXF7UAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (Build and Push Docker Image)
+[8mha:////4HbZKIWUAB6NOUExu3GzW2s+lMYLQAPmanRTvIkpQpe4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4EdyAKOG4l2BqxOoEDQfgc8acGVda/un4NT25pMTg2zuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4NcTs42mhjKtysSwPFdsN+Bta2W3DIq+ql1fiCHW4JlKAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ docker build -t deepakkr35/demo-java-app:V1.0 demo-java-app
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 239B 0.1s done
+#1 DONE 0.4s
+
+#2 [internal] load metadata for docker.io/library/openjdk:latest
+#2 DONE 5.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/openjdk:latest@sha256:9b448de897d211c9e0ec635a485650aed6e28d4eca1efbc34940560a480b3f1f
+#5 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 19.07MB 1.8s done
+#4 DONE 2.1s
+
+#6 [2/3] WORKDIR /opt/app
+#6 CACHED
+
+#7 [3/3] COPY target/demo-java-app.jar app.jar
+#7 DONE 3.4s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.6s done
+#8 writing image sha256:5f72696f177bb83888e844686aa94512ce9f095e7a3c39c89487f1e8443a4042 0.0s done
+#8 naming to docker.io/deepakkr35/demo-java-app:V1.0 0.1s done
+#8 DONE 0.9s
+[8mha:////4GyNsZ6kKm3EwiCV7NTzAa3UtJ7iooE8BH+VfmOmX+XpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] sh
++ docker login -u tonUserDocker -p tonPasswordDocker
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or password
+[8mha:////4BBNGXoCfA7AzgPE9EOdgC4kODxxapIeNMOtn/9ZS0TDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN40kgA2+AAAA[0m[Pipeline] }
+[8mha:////4N1YCbVbrqfw9LnYXQl1uwRRhfRCg1m7VLfzQUK47F47AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGZBx0SvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4K41aj3fpTArsRlPVHKEUuNdtkT/rchf3oxwmnGKNwfUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGq5EauvgAAAA==[0m[Pipeline] }
+[8mha:////4GthDU9wyf4i6xPbY61iamm1/XG+e6vXmvIepZwBbkJsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQNCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+a39c/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Menl9wRL7Y8qrViCDQ0xvpi9N5qM3ZLtGdihMc9XxTZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTQIMQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvV6S64cEAAAA=[0m[Pipeline] stage
+[8mha:////4HRe6nJUR05yBDCNl0oDHsNd3gS88hyw+NRCKwYM8S5ZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] { (Update Deployment File)
+Stage "Update Deployment File" skipped due to earlier failure(s)
+[8mha:////4Ez9RMGzNRseIzQ0qqLS+XU1VcjsW4CzZkHsU/EiK7onAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] getContext
+[8mha:////4DBmtJGvfFYWrFjAAuB1uzZfgmbATp9Gh9nQHx08QmTrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BlDdbXS+AAAA[0m[Pipeline] }
+[8mha:////4PzEMPQUlOZgjB/vMaVeqTE8ofDpzRC5SbJc4vmnCg5cAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAYhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGWIKyJvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EQEM0o3ijMBlFsk59gVWRmY118FL+SYLWJQ7niHjo4gAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0dI6VbYbGE0SIMZDZhWQRKk/k1byDjMxY+av/XvNeb2xTxImjU62lzlOqverD6JanJo7dLfCkWr6qmilxsKqyU8WNPa9YsVisy3JsNHaW6sDJkxPsdWsepgiGXHGRuLijRu6bAU9keimLifKFOeJwH5vE9Ov8DWDue0FeloKs/AD2HAh3vQAAAA==[0m[Pipeline] }
+[8mha:////4F31KmvQdgpWkKyEIV/DIWi3KJEkGOBS0IQkIBoL53U2AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId3tBtv0A5aAM1L0AAAA=[0m[Pipeline] // node
+[8mha:////4FgM94B/ugtFb/Zyd8RWJL9ZgNYIH9x0y12ZzziMSME5AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKPqq+S9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1540.v295eccc9778f">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>build_version</name>
+          <description>Build version to use for Docker image</description>
+          <value>V1.0</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>build_version</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>dali</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.32-481.v75f035fdc894">
+      <queuingDurationMillis>451</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>63</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+  </actions>
+  <queueId>7</queueId>
+  <timestamp>1755959243473</timestamp>
+  <startTime>1755959243530</startTime>
+  <result>FAILURE</result>
+  <duration>608</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

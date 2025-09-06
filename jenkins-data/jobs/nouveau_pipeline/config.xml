@@ -1,0 +1,103 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1540.v295eccc9778f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2258.v4e96d2b_da_f9b_"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2258.v4e96d2b_da_f9b_">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>build_version</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>build_version</name>
+          <description>Build version to use for Docker image</description>
+          <defaultValue>V1.0</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4175.ve65b_fa_663eed">
+    <script>pipeline {
+  agent any
+  parameters {
+    string(name: &apos;build_version&apos;, defaultValue: &apos;V1.0&apos;, description: &apos;Build version to use for Docker image&apos;)
+  }
+  stages {
+    stage(&apos;Checkout&apos;) {
+      steps {
+        git branch: &apos;main&apos;, url: &apos;https://github.com/dali999999/devops-demo-project.git&apos;
+      }
+    }
+    stage(&apos;Build and Test&apos;) {
+      steps {
+        sh &apos;ls -ltr&apos;
+        // build the project and create a JAR file
+        sh &apos;cd demo-java-app &amp;&amp; mvn clean package&apos;
+      }
+    }
+    stage(&apos;Static Code Analysis&apos;) {
+      environment {
+        SONAR_URL = &quot;http://localhost:9000&quot;
+      }
+      steps {
+        withCredentials([string(credentialsId: &apos;sonarqube&apos;, variable: &apos;SONAR_AUTH_TOKEN&apos;)]) {
+          sh &quot;cd demo-java-app &amp;&amp; mvn sonar:sonar -Dsonar.login=$SONAR_AUTH_TOKEN -Dsonar.host.url=${SONAR_URL}&quot;
+        }
+      }
+    }
+    stage(&apos;Build and Push Docker Image&apos;) {
+  environment {
+    DOCKER_IMAGE = &quot;dali999/demo-java-app:${build_version}&quot;
+
+  }
+  steps {
+    withCredentials([usernamePassword(credentialsId: &apos;dockerhub-credentials&apos;, usernameVariable: &apos;DOCKERHUB_USER&apos;, passwordVariable: &apos;DOCKERHUB_PASS&apos;)]) {
+      // Connexion à Docker Hub avant le build
+      sh &apos;echo $DOCKERHUB_PASS | docker login -u $DOCKERHUB_USER --password-stdin&apos;
+    }
+    // Build de l&apos;image Docker
+    sh &quot;docker build -t ${DOCKER_IMAGE} demo-java-app&quot;
+    // Push de l&apos;image sur Docker Hub
+    sh &quot;docker push ${DOCKER_IMAGE}&quot;
+  }
+}
+
+
+
+     stage(&apos;Update Helm Values&apos;) {
+            environment {
+                GIT_REPO_NAME = &quot;devops-demo-project&quot;
+                GIT_USER_NAME = &quot;dali999999&quot;
+            }
+            steps {
+                withCredentials([string(credentialsId: &apos;github&apos;, variable: &apos;GITHUB_TOKEN&apos;)]) {
+                    sh &quot;&quot;&quot;
+                        git config user.email &quot;mohamed.ali.jaouadiii@gmail.com&quot;
+                        git config user.name &quot;dali999999&quot;
+
+                        # Update Helm values.yaml avec le nouveau tag
+                        sed -i &quot;s|tag:.*|tag: \\&quot;${build_version}\\&quot;|&quot; helm/app/values.yaml
+                        
+                        git add helm/app/values.yaml
+                        git commit -m &quot;Update deployment image to version ${build_version}&quot; || echo &quot;No changes to commit&quot;
+                        git push https://${GITHUB_TOKEN}@github.com/${GIT_USER_NAME}/${GIT_REPO_NAME} HEAD:main
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

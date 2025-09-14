@@ -1,19 +1,26 @@
 replicaCount: 2
+
+# Image
 imagePullSecrets:
   - name: regcred
-
-ingress: 
-  enabled: false 
 image:
   repository: dali999/demo-java-app
-  pullPolicy: IfNotPresent
   tag: "V1.0"
+  pullPolicy: IfNotPresent
 
+# Application
 appName: demo-java-app
 
+# Service
 service:
   type: NodePort
-  port: 8081       # port de l’application
-  targetPort: 8081 # doit correspondre à ton futur Dockerfile (EXPOSE 8081)
-  nodePort: 30081  # port externe (VM) => http://<VM_IP>:30081
+  port: 8081
+  targetPort: 8081
+  nodePort: 30081
 
+# Horizontal Pod Autoscaler
+hpa:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 50

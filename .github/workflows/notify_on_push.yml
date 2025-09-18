@@ -21,7 +21,8 @@ jobs:
           username: ${{ secrets.EMAIL_USER }}
           password: ${{ secrets.EMAIL_PASS }}
           subject: "Nouveau commit dans devops-demo-project"
-          to: "mohamed.ali.jaouadiii@gmail.com"
+          from: ${{ secrets.EMAIL_USER }}
+          to: "khlifabanneni707@gmail.com"
           body: |
             Un nouveau commit a été poussé sur la branche main.
             Repo: dali999999/devops-demo-project

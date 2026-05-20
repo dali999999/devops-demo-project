@@ -1,52 +1,75 @@
-# Building a DevOps CI/CD Pipeline Locally: GitHub, Jenkins, Maven, SonarQube, Docker, DockerHub, ArgoCD, Helm, Kubernetes, Prometheus, Grafana, Filebeat, OpenSearch, and Kibana
+# DevOps CI/CD Pipeline — Mohamed Ali Jaouadi
 
+A complete DevOps pipeline built locally using industry-standard tools, automating the full lifecycle of a Java Spring Boot application from source code to Kubernetes deployment.
 
-![Flow Diagram](https://github.com/deepakkr35/devops-demo-project/blob/main/devops-demo-project.gif)
+## Architecture
+GitHub → Jenkins → Maven → SonarQube → Docker → DockerHub → Helm → Kubernetes (Minikube) → ArgoCD
 
-## Table of Contents
-- [Application Code](#application-code)
-- [Jenkins Pipeline Code](#jenkins-pipeline-code)
-- [ArgoCD Configuration File](#jenkins-server-terraform)
-- [Helm Charts](#helm-charts)
-- [Project Details](#project-details)
+## Tools & Technologies
 
-## Application Code
-The `demo-java-app` directory contains the source code for the Demo Java Web Application. Dive into this directory to explore the implementations.
+| Category | Tools |
+|---|---|
+| CI/CD | Jenkins, GitHub Actions |
+| Code Quality | SonarQube |
+| Build | Maven |
+| Containerization | Docker, DockerHub |
+| Orchestration | Kubernetes, Minikube, Helm |
+| GitOps | ArgoCD |
+| Auto-scaling | HPA, Metrics Server |
+| Environment | WSL2, Ubuntu |
 
-## Jenkins Pipeline Code
-In the `ci/Jenkins` directory, you'll find Jenkins pipeline script. These scripts automate the CI process, ensuring smooth integration of your application.
+## Project Structure
+devops-demo-project/
+├── ci/
+│   └── Jenkins/
+│       ├── Dockerfile        # Custom Jenkins image with Docker & Maven
+│       ├── Jenkinsfile       # CI/CD pipeline definition
+│       └── docker-compose.yaml
+├── cd/
+│   └── argocd/
+│       └── argocd-basic.yaml # ArgoCD configuration
+├── demo-java-app/            # Spring Boot application
+│   ├── Dockerfile
+│   ├── pom.xml
+│   └── src/
+└── helm/
+└── app/                  # Helm chart for Kubernetes deployment
 
-## ArgoCD Configuration File
-Explore the `cd/argocd/argocd-basic.yaml` file to find configuration details of ArgoCD.
+## Pipeline Stages
 
-## Helm charts
-The `helm` directory holds helm charts for deploying applications on Kubernetes.
-
-## Project Details
-🛠️ **Tools Explored:**
-- Jenkins, Sonarqube, Terraform, Kubectl, and more for CI/CD setup
-- Helm, Prometheus, and Grafana for Monitoring
-- Filebeat, Elasticsearch and Kibana for Logging 
-- ArgoCD for GitOps practices
-
-🚢 **High-Level Overview:**
-- Jenkins deployment on Docker
-- Minikube Cluster creation using Docker as driver
-- Dockerhub repositories for image management
-- Helm charts for efficient monitoring and logging setup
-- GitOps with ArgoCD - the cherry on top!
-
-📈 **The journey covered everything from setting up tools to deploying demo java app, ensuring data persistence, and implementing CI/CD pipelines.**
+1. **Checkout** — Pull source code from GitHub
+2. **Build & Test** — Compile with Maven, run tests
+3. **Static Code Analysis** — SonarQube quality gates
+4. **Docker Build & Push** — Build image, push to DockerHub
+5. **Update Helm Values** — Update image tag in values.yaml
+6. **GitOps Sync** — ArgoCD detects change, deploys to Kubernetes
 
 ## Getting Started
-To get started with this project, refer to our [comprehensive guide](https://medium.com/@deepakkr35/building-a-devops-ci-cd-pipeline-locally-github-jenkins-maven-sonarqube-docker-dockerhub-ba5cf7d58074) that walks you through detailed steps.
 
-## Contributing
-We welcome contributions! If you have ideas for enhancements or find any issues, please open a pull request or file an issue.
+### Prerequisites
+- Docker & Docker Compose
+- WSL2 (Ubuntu)
+- Minikube
+- kubectl & Helm
+- ArgoCD
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+### Run CI Environment
 
-Happy Coding! 🚀
-Test GitHub Actions
-Test email GitHub Actions Fri Sep 19 14:23:58 WAT 2025
+```bash
+cd ci
+docker-compose up -d
+```
+
+Jenkins will be available at `http://localhost:8010`
+SonarQube will be available at `http://localhost:9000`
+
+### Deploy to Kubernetes
+
+```bash
+helm install demo-app helm/app/
+```
+
+## Author
+
+**Mohamed Ali Jaouadi**
+GitHub: [@dali999999](https://github.com/dali999999)

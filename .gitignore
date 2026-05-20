@@ -1,3 +1,6 @@
 /demo-java-app/target
 .idea
-.DS_Storejenkins-data/
+.DS_Store
+jenkins-data/
+*.gif
+*.svg

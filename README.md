@@ -25,7 +25,7 @@ stage-ete/
 ├── ci/
 │   ├── docker-compose.yml           # Jenkins + SonarQube services
 │   └── Jenkins/
-│       ├── Dockerfile               # Custom Jenkins image (Docker + Maven)
+│       ├── Dockerfile               # Custom Jenkins image (Docker + Maven + Git)
 │       └── Jenkinsfile              # CI pipeline definition
 ├── cd/
 │   └── argocd/
@@ -34,6 +34,8 @@ stage-ete/
 │   ├── Dockerfile                   # Multi-stage build (Java 17)
 │   ├── pom.xml
 │   └── src/
+├── docs/
+│   └── screenshots/                 # Pipeline screenshots
 └── helm/
 └── app/                         # Helm chart for Kubernetes deployment
 ├── Chart.yaml
@@ -51,6 +53,17 @@ stage-ete/
 4. **Docker Build & Push** — Build image and push to DockerHub
 5. **Update Helm Values** — Jenkins updates image tag in `values.yaml`
 6. **GitOps Sync** — ArgoCD detects the change and deploys to Kubernetes
+
+## Screenshots
+
+### Jenkins Build
+![Jenkins Build](docs/screenshots/jenkins-build-success.png)
+
+### ArgoCD Synced & Healthy
+![ArgoCD](docs/screenshots/argocd-synced-healthy.png)
+
+### Application Deployed
+![App Deployed](docs/screenshots/app-deployed.png)
 
 ## Getting Started
 

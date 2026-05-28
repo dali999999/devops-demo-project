@@ -1,22 +1,19 @@
-# Dockerfile
-
 FROM jenkins/jenkins:lts-jdk17
 
-# Switch to root to install Maven and Docker
 USER root
 
-# Install Maven
-RUN apt-get update && apt-get install -y maven
-
-# Install Docker
-RUN apt-get update && \
-    apt-get install -y \
+# Install Maven, Git and Docker
+RUN apt-get update && apt-get install -y \
+    maven \
+    git \
     ca-certificates \
     curl \
     sudo && \
     curl -fsSL https://get.docker.com -o install-docker.sh && \
-    sudo sh install-docker.sh && \
-    sudo usermod -a -G docker jenkins
+    sh install-docker.sh && \
+    usermod -aG docker jenkins && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Expose Jenkins port
+USER jenkins
+
 EXPOSE 8080

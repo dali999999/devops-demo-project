@@ -17,3 +17,9 @@ service:
   targetPort: 8081 # doit correspondre à ton futur Dockerfile (EXPOSE 8081)
   nodePort: 30081  # port externe (VM) => http://<VM_IP>:30081
 
+
+hpa:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 70
